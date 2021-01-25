@@ -17,22 +17,22 @@ These concepts will be covered :-
 10. API
 11. Routings
 
-# main package.json -> script dependency , package dependency and version
+### main package.json -> script dependency , package dependency and version
 
-# package-lock.json -> contains tree version of project for dependencies 
+### package-lock.json -> contains tree version of project for dependencies 
 
-# babel -> file conversion ke liye
+### babel -> file conversion ke liye
 ## convert vue to js 
 
-# public -> index.html -> very first file to run on the network
+### public -> index.html -> very first file to run on the network
 
-# js entry file -> inside source  -> main.js
+### js entry file -> inside source  -> main.js
 
-# Component is like a special code which act as a identity for unique task for example searchbox,header,sidebar etc.
+### Component is like a special code which act as a identity for unique task for example searchbox,header,sidebar etc.
 
-# assets -> public images , etc
+### assets -> public images , etc
 
-# most code-components
+### most code-components
 
 
 # 2. Components -->
