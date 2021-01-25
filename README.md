@@ -97,3 +97,27 @@ These concepts will be covered :-
 
 
 ## Data binding in vuejs
+
+1. What is Data binding
+2. Make a Component
+3. Define property
+4. Make data binding
+5. Data binding with multiline
+
+
+# 6. Props
+
+1. What are Props - prop means property of component
+  Props are properties to pass data (parameter) to component(function)
+2. Make a component
+3. Define props
+4. Pass Props
+5. Access Props
+
+# 7. Send props child to parent
+
+1. Make a child component
+2. Call a function on button click
+3. emit a event from function
+4. call parent component function with event emitter
+5. Update title
