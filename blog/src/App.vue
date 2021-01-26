@@ -1,22 +1,38 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <!-- <Home /> -->
-    <!-- <Home data="Aashish is here" msg="Hi from Aashish"/> -->
-    <!--<ConditionalRenderingIf /> -->
-    <!-- <ConRenFor /> -->
-    <!-- <Home1 /> -->
-    <!-- <TempComp />
-    <class-n-style /> -->
-    <!-- <data-bind /> -->
-    <child v-bind:users="users"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Home />
+    <Home data="Aashish is here" msg="Hi from Aashish"/>
+    <ConditionalRenderingIf />
+    <ConRenFor />
+    <Home1 />
+     <TempComp />
+    <class-n-style /> 
+    <data-bind />
+    <child v-bind:users="users"/> -->
+  <!-- Common for all routing pages -->
+    <nav>
+      <ul>
+        <li>
+          <router-link to="/">Home</router-link>  
+        </li>
+        <li>
+          <router-link to="/About">About</router-link>  
+        </li>
+        <li>
+          <router-link to="/settings">Settings</router-link>  
+        </li>
+      </ul>
+    </nav>
+    <router-view></router-view>
 
   </div>
 </template>
 
 <script>
-import Child from './components/Child.vue'
+//import About from './components/About.vue'
+// import Child from './components/Child.vue'
 //import ClassNStyle from './components/ClassNStyle.vue'
 //import HelloWorld from './components/HelloWorld.vue'
 //import Home from './components/Home.vue'
@@ -31,6 +47,7 @@ import Child from './components/Child.vue'
 export default {
   name: 'App',
   components: {
+    //About
   //  HelloWorld,
   //  Home
   //ConditionalRenderingIf
@@ -39,15 +56,17 @@ export default {
   //TempComp
    // ClassNStyle,
    // DataBind,
-    Child
+   // Child
   },
   data(){
-    return {users: [
-      {name:"Sam",email:"sam@345"},
-      {name:"San",email:"sam@346"},
-      {name:"Sak",email:"sam@348"},
-      {name:"Sal",email:"sam@349"}
-      ]}
+    return {
+      // users: [
+      // {name:"Sam",email:"sam@345"},
+      // {name:"San",email:"sam@346"},
+      // {name:"Sak",email:"sam@348"},
+      // {name:"Sal",email:"sam@349"}
+      // ]
+      }
   }
 }
 </script>
