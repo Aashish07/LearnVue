@@ -5,6 +5,7 @@ import About from './components/About'
 import Home2 from './components/Home2'
 import Settings from './components/Settings.vue'
 import User from './components/User.vue'
+import store from './store'
 
 Vue.use(VueRouter)
 
@@ -20,6 +21,7 @@ const router = new VueRouter({
 Vue.config.productionTip = false
 
 new Vue({
+  store,
   router:router,
   render: h => h(App),
 }).$mount('#app')

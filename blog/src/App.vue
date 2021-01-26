@@ -11,8 +11,11 @@
     <class-n-style /> 
     <data-bind />
     <child v-bind:users="users"/> -->
+    <h1>Todos</h1>
+    <to-do-list />
+    <todo-form />
   <!-- Common for all routing pages -->
-    <nav>
+    <!-- <nav>
       <ul>
         <li>
           <router-link to="/">Home</router-link>  
@@ -25,12 +28,14 @@
         </li>
       </ul>
     </nav>
-    <router-view></router-view>
+    <router-view></router-view> -->
 
   </div>
 </template>
 
 <script>
+import TodoForm from './components/TodoForm.vue'
+import ToDoList from './components/ToDoList.vue'
 //import About from './components/About.vue'
 // import Child from './components/Child.vue'
 //import ClassNStyle from './components/ClassNStyle.vue'
@@ -47,6 +52,8 @@
 export default {
   name: 'App',
   components: {
+    ToDoList,
+    TodoForm
     //About
   //  HelloWorld,
   //  Home
