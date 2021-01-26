@@ -16,6 +16,7 @@ These concepts will be covered :-
 9. Life Cycle Methods
 10. API
 11. Routings
+12. Vuex state management
 
 ### main package.json -> script dependency , package dependency and version
 
@@ -141,3 +142,8 @@ These concepts will be covered :-
 2. Define Route with Params
 3. Open new route on click
 4. get data from route
+
+# 12. Vuex State Management
+
+1. npm install vuex
+2. 
