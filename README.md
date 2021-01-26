@@ -121,3 +121,23 @@ These concepts will be covered :-
 3. emit a event from function
 4. call parent component function with event emitter
 5. Update title
+
+# 11. Routing
+
+1. Install vue package
+2. Imprt component
+3. Make routers
+4. Register Router
+5. Test
+
+## Add Routing Link
+1. Where we should define router link
+2. Define link for current routing
+3. make 1 more router
+
+## Pass Data with Routing in Vuejs
+
+1. Add some fake user List in Home
+2. Define Route with Params
+3. Open new route on click
+4. get data from route
