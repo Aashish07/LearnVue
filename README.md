@@ -147,3 +147,18 @@ These concepts will be covered :-
 
 1. npm install vuex
 2. 
+
+
+
+
+
+
+# TO-DO Project
+export default new Vuex.Store({
+    /*here we have 4 properties:-
+        1. state
+        2. getters
+        3. mutations
+        4. actions
+    */
+})
